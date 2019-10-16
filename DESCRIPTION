@@ -1,0 +1,21 @@
+Package: ForesiteEmu
+Type: Package
+Title: Latin Hypercube Sampling for computer experiment emulation as part of the FORESITE project.
+Version: 0.1.0
+Authors@R: c(person(
+  "Luis", "Damiano", 
+  email = "damiano.luis@gmail.com", 
+  role = c("aut", "cre", "cph"), 
+  comment = c(ORCID = "0000-0001-9107-0706")))
+Description: Generate samples to emulate a crop computer model as a combination of Latin Hypercube Samples from three family of inputs: soil variables, weather variables, management decisions. This software is part of the FORESITE efforts.
+License: GPL (>=3)
+Copyright: (c) 2019
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table
+Suggests: 
+    knitr,
+    rmarkdown
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
